@@ -149,7 +149,7 @@ export const Contact = () => {
                     <div className='flex flex-col justify-evenly items-center w-1/2'>
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21405.242727715104!2d0.11990886647119164!3d47.884999838004696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e29a51332fd76f%3A0x64aea7c154a635aa!2zNzIyMzAgR3XDqWPDqWxhcmQ!5e0!3m2!1sfr!2sfr!4v1728662554703!5m2!1sfr!2sfr" 
-                        className="w-4/6 h-96 border-0"
+                        className="w-4/6 h-96 border-2 border-blue-500"
                         loading="lazy"
                     ></iframe>
                     </div>
