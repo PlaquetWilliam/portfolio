@@ -1,34 +1,31 @@
 import { Home } from './pages/Home'
 import { Skills } from './pages/Skills'
 import { Experiences } from './pages/Experiences'
+import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
 import { Routes, Route, NavLink } from 'react-router-dom';
-import { Theme1 } from './pages/Theme1';
-import { Theme2 } from './pages/Theme2';
-import { Theme3 } from './pages/Theme3';
 
 function App() {
   return (
-    <div className="h-[100vh]">
-      <header className='flex justify-around items-center h-[10vh] border-b-4 border-[#e9e9e9]'>
-        <h1 className='text-4xl font-bold'>William.</h1>
+    <div>
+      <div className='fixed flex flex-col items-center w-52 h-[100vh]'>
+        <h1 className='flex justify-center items-center w-full h-[10vh] text-4xl font-bold bg-[#000000] text-white font-montserrat'>W.</h1>
 
-        <nav>
-          <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/portfolio' }>Présentation</NavLink>
-          <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/skills' }>Compétences</NavLink>
-          <NavLink className='mr-10 p-2 font-medium' style={({isActive}) => ({color: isActive ? 'rgb(59 130 246)' : '#000000'})} to={ '/experiences' }>Expériences</NavLink>
-          <NavLink className='mr-10 py-2 px-6 font-medium rounded-full' style={({isActive}) => ({ backgroundColor: isActive ? 'rgb(59 130 246)' : '#ffffff', color: isActive ? '#ffffff' : 'rgb(59 130 246)', border: isActive ? '2px solid transparent' : '2px solid rgb(59 130 246)'})} to={ '/contact' }>Me contacter</NavLink>
+        <nav className='flex flex-col justify-center items-center w-full h-[90vh] bg-[#171717]'>
+          <NavLink className='p-2 font-montserrat' style={({isActive}) => ({color: isActive ? '#3B82F6' : '#6d6d6d'})} to={ '/portfolio' }>Présentation</NavLink>
+          <NavLink className='p-2 font-montserrat' style={({isActive}) => ({color: isActive ? '#3B82F6' : '#6d6d6d'})} to={ '/skills' }>Compétences</NavLink>
+          <NavLink className='p-2 font-montserrat' style={({isActive}) => ({color: isActive ? '#3B82F6' : '#6d6d6d'})} to={ '/projects' }>Mes projets</NavLink>
+          <NavLink className='p-2 font-montserrat' style={({isActive}) => ({color: isActive ? '#3B82F6' : '#6d6d6d'})} to={ '/experiences' }>Expériences</NavLink>
+          <NavLink className='p-2 font-montserrat' style={({isActive}) => ({color: isActive ? '#3B82F6' : '#6d6d6d'})} to={ '/contact' }>Me contacter</NavLink>
         </nav>
-      </header>
+      </div>
 
       <Routes>
         <Route path='/portfolio' element={ <Home/> }/>
         <Route path='/skills' element={ <Skills/> }/>
+        <Route path='/projects' element={ <Projects/> }/>
         <Route path='/experiences' element={ <Experiences/> }/>
         <Route path='/contact' element={ <Contact/> }/>
-        <Route path='/theme1' element={ <Theme1/> }/>
-        <Route path='/theme2' element={ <Theme2/> }/>
-        <Route path='/theme3' element={ <Theme3/> }/>
       </Routes>
     </div>
   );

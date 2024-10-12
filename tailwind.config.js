@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      montserrat: ["Montserrat", "sans-serif"],
+    },
+    animation: {
+      "spin-slow": "spin 3s linear infinite"
+    },
   },
   plugins: [],
 }
