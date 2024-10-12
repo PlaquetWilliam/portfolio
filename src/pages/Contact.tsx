@@ -167,6 +167,8 @@ export const Contact = () => {
                     Une erreur est survenue, veuillez réessayer plus tard.
                 </div>
             )}
+
+            <Footer/>
         </main>
     )
 }

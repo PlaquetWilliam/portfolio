@@ -164,6 +164,8 @@ export const Skills = () => {
                     </div>
                 </div>
             </section>
+
+            <Footer/>
         </main>
     )
 }

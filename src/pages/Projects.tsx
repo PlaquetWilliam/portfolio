@@ -1,3 +1,5 @@
+import { Footer } from "../components/Footer";
+
 import React, { useState } from 'react';
 import Projet1 from '../img/Projet1.png';
 import Projet2 from '../img/Projet2.png';
@@ -72,6 +74,8 @@ export const Projects = () => {
                     </div>
                 </div>
             </section>
+
+            <Footer/>
         </main>
     );
 }
