@@ -77,7 +77,7 @@ export const Contact = () => {
 
                             <div className="flex flex-col mb-10 p-10 w-1/2 bg-[#2a2a2a]">
                                 <FaPhone className="mb-4 w-12 h-12 text-white"/>
-                                <p className="w-full text-1xl font-medium text-[#6c6c6c] font-montserrat">60 16 21 00 27</p>
+                                <p className="w-full text-1xl font-medium text-[#6c6c6c] font-montserrat">06 16 21 00 27</p>
                             </div>
 
                             <div className="flex flex-col p-10 w-1/2 bg-[#2a2a2a]">
