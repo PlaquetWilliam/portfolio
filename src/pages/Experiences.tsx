@@ -4,7 +4,7 @@ export const Experiences = () => {
     return (
         <main>
             <section className='flex justify-center w-full h-full bg-[#1b1b1b]'>
-                <div className="flex justify-center items-center ml-52 w-4/6 h-full py-20">
+                <div className="flex justify-center items-center ml-52 w-4/6 h-full py-40">
                     <div className="relative w-full">
                         <div className="absolute top-0 bottom-0 left-1/2 w-[6px] bg-[#2b2b2b] -ml-[3px] rounded-full"></div>
 

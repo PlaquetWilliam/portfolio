@@ -43,7 +43,7 @@ export const Home = () => {
             </div>
         </section>
 
-        <section className='flex items-center py-20 w-full bg-[#1b1b1b]'>
+        <section className='flex items-center py-40 w-full bg-[#1b1b1b]'>
             <div className="flex justify-center items-center ml-52 w-full h-full">
                 <div className='flex flex-col justify-center items-center w-1/2'>
                     <div className='flex flex-col justify-center w-5/6'>

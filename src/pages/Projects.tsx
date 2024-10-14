@@ -27,7 +27,7 @@ export const Projects = () => {
 
     return (
         <main>
-            <section className='flex items-center py-20 w-full bg-[#1b1b1b]'>
+            <section className='flex items-center py-40 w-full bg-[#1b1b1b]'>
                 <div className="flex justify-center items-center ml-52 w-1/2 h-full">
                     <div className='flex flex-col justify-center w-5/6'>
                         <div className='mb-5 w-24 h-px bg-[#6d6d6d]'></div>
@@ -51,7 +51,7 @@ export const Projects = () => {
                 </div>
             </section>
 
-            <section className='flex items-center py-20 w-full bg-[#1b1b1b]'>
+            <section className='flex items-center py-40 w-full bg-[#1b1b1b]'>
                 <div className="flex justify-center items-center ml-52 w-1/2 h-full">
                     <div className='flex flex-col justify-center w-5/6'>
                         <div className='mb-5 w-24 h-px bg-[#6d6d6d]'></div>
