@@ -18,7 +18,7 @@ export const Skills = () => {
                             </p>
                             <div className='my-5 w-24 h-px bg-[#6d6d6d]'></div>
                             <div className="flex">
-                                <a href={`${process.env.PUBLIC_URL}/Referentiel.pdf`} download="CV-PLAQUET.pdf">
+                                <a href={`${process.env.PUBLIC_URL}/Referentiel.pdf`} download="Référentiel.pdf">
                                     <button className="relative mr-6 py-2 px-6 font-medium text-blue-500 font-montserrat bg-transparent border-2 border-blue-500 overflow-hidden group">
                                         <span className="absolute inset-0 bg-blue-500 transition-all duration-500 ease-out transform scale-0 group-hover:scale-150 origin-bottom-right z-0"></span>
                                         <span className="relative z-10 transition-colors duration-500 group-hover:text-white">
