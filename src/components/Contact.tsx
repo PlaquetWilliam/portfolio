@@ -44,21 +44,6 @@ export const Contact = () => {
 
                     <MdArrowOutward className="p-3 text-5xl text-[#adbac7] rounded"/>
                 </a>
-
-                <a href="https://www.linkedin.com/in/william-plaquet-9b6682210/" className="flex-1 flex justify-between items-center p-4 bg-[#1e2329] border border-[#333538] rounded-lg">
-                    <div className='flex items-center'>
-                        <div className="relative">
-                            <img src={ Profil } className='h-[80px] rounded-full'/>
-                            <img src={ Linkedin } className='absolute bottom-0 right-0 h-[30px] rounded-full'/>
-                        </div>
-
-                        <div className="flex flex-col">
-                            <h1></h1>
-                        </div>
-                    </div>
-
-                    <MdArrowOutward className="p-3 text-5xl text-[#adbac7] rounded"/>
-                </a>
             </div>
         </section>
     </>

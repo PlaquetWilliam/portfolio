@@ -3,6 +3,8 @@ import { SiIndeed } from "react-icons/si";
 
 import Profil from '../assets/Profil.png'
 
+import cv from '../assets/CV.pdf';
+
 export const Hero = () => {
     return (
     <>
@@ -13,12 +15,13 @@ export const Hero = () => {
                     <h1 className="text-6xl font-bold text-[#adbac7]">Développeur Web</h1>
                     <p className="mt-4 text-lg text-[#9fa6b2]">Développeur Full-Stack / Développeur Frameworks</p>
                     <div className="mt-4 flex">
-                        <button
-                            className="mr-6 py-2 px-6 font-medium text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded cursor-pointer duration-100 hover:bg-[#303740]"
-                            onClick={() => window.open('/CV.pdf', '_blank')}
-                            >
-                            Télécharger le CV
-                        </button>
+                        <a
+                        href={cv}
+                        download="William_Plaquet_CV.pdf"
+                        className="mr-6 py-2 px-6 font-medium text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded cursor-pointer duration-100 hover:bg-[#303740]"
+                        >
+                        Télécharger le CV
+                        </a>
                         <a href="https://www.linkedin.com/in/william-plaquet-9b6682210/" target="blank" className="flex justify-center items-center mr-6 p-2 font-medium text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded duration-100 hover:bg-[#303740]">
                             <CiLinkedin className="text-2xl" />
                         </a> 
