@@ -4,12 +4,12 @@ export const Skills = () => {
     return (
     <>
         <section className='flex flex-col py-10 w-full'>
-            <div className="flex items-center">
+            <div className="flex items-center z-10">
                 <p className="mr-2 py-1 px-3 text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded">Skills</p>
                 <h1 className="text-2xl font-bold text-[#adbac7]">Ce que j'aime pratiquer !</h1>
             </div>
 
-            <div className="flex mt-8">
+            <div className="flex mt-8 z-10">
                 <div className="flex-1 flex flex-col px-8">
                     <RiReactjsFill className="text-6xl text-[#adbac7]"/>
                     <h1 className="mt-4 text-2xl font-bold text-[#adbac7]">React</h1>
