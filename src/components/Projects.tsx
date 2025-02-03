@@ -1,7 +1,5 @@
 import { useState } from "react";
-
 import { MdOutlinePoll, MdOutlineSell, MdOutlineMusicNote, MdOutlinePermMedia, MdArrowForward } from "react-icons/md";
-
 import Typezik from '../assets/Typezik.png'
 
 const Modal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
@@ -24,7 +22,7 @@ export const Projects = () => {
     <>
         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
         <section className='flex flex-col py-10 w-full gap-4'>
-            <div className="flex w-full gap-4 z-10">
+            <div className="flex flex-col w-full gap-4 z-10 2xl:flex-row">
                 <div className="flex-2 p-4 bg-[#1e2329] border border-[#333538] rounded-lg">
                     <h1 className="text-2xl font-bold text-[#adbac7]">Mes projets</h1>
 
@@ -33,7 +31,7 @@ export const Projects = () => {
                             <MdOutlinePoll className="p-3 text-5xl bg-[#434d5b] text-[#adbac7] rounded"/>
 
                             <div className="flex flex-col">
-                                <h1 className="text-[#adbac7] font-bold text-lg">Inpoll <span className="mr-2 px-2 text-yellow-500 font-normal text-sm border border-yellow-500 bg-[#23282f] rounded">Plus d'accés</span></h1>
+                                <h1 className="text-[#adbac7] font-bold text-lg">Inpoll <span className="mr-2 px-2 text-yellow-500 font-normal text-xs border border-yellow-500 bg-[#23282f] rounded">Plus d'accés</span></h1>
                                 <p className="text-[#9fa6b2] text-sm">Application de gestion de sondages.</p>
                             </div>
                         </a>
@@ -42,7 +40,7 @@ export const Projects = () => {
                             <MdOutlineSell className="p-3 text-5xl bg-[#434d5b] text-[#adbac7] rounded"/>
 
                             <div className="flex flex-col">
-                                <h1 className="text-[#adbac7] font-bold text-lg">Figurinum <span className="mr-2 px-2 text-green-500 font-normal text-sm border border-green-500 bg-[#23282f] rounded">En cours</span></h1>
+                                <h1 className="text-[#adbac7] font-bold text-lg">Figurinum <span className="mr-2 px-2 text-green-500 font-normal text-xs border border-green-500 bg-[#23282f] rounded">En cours</span></h1>
                                 <p className="text-[#9fa6b2] text-sm">Plateforme de vente de figurine en ligne.</p>
                             </div>
                         </a>
@@ -51,8 +49,8 @@ export const Projects = () => {
                             <MdOutlineMusicNote className="p-3 text-5xl bg-[#434d5b] text-[#adbac7] rounded" />
 
                             <div className="flex items-start flex-col">
-                                <h1 className="text-[#adbac7] font-bold text-lg">Typezik <span className="mr-2 px-2 text-red-500 font-normal text-sm border border-red-500 bg-[#23282f] rounded">Obsolète</span></h1>
-                                <p className="text-[#9fa6b2] text-sm">Application de recherche de musique par rapport au style.</p>
+                                <h1 className="text-[#adbac7] font-bold text-lg">Typezik <span className="mr-2 px-2 text-red-500 font-normal text-xs border border-red-500 bg-[#23282f] rounded">Obsolète</span></h1>
+                                <p className="text-[#9fa6b2] text-sm">Application de recherche de musique.</p>
                             </div>
                         </button>
 
@@ -60,7 +58,7 @@ export const Projects = () => {
                             <MdOutlinePermMedia className="p-3 text-5xl bg-[#434d5b] text-[#adbac7] rounded"/>
 
                             <div className="flex flex-col">
-                                <h1 className="text-[#adbac7] font-bold text-lg">Médiassic <span className="mr-2 px-2 text-purple-500 font-normal text-sm border border-purple-500 bg-[#23282f] rounded">Fonctionnalités manquantes</span><span className="mr-2 px-2 text-yellow-500 font-normal text-sm border border-yellow-500 bg-[#23282f] rounded">Plus d'accés</span></h1>
+                                <h1 className="text-[#adbac7] font-bold text-lg">Médiassic <span className="mr-2 px-2 text-yellow-500 font-normal text-xs border border-yellow-500 bg-[#23282f] rounded">Plus d'accés</span></h1>
                                 <p className="text-[#9fa6b2] text-sm">Wiki sur le domaine de la paléotonlogie.</p>
                             </div>
                         </a>
@@ -76,7 +74,7 @@ export const Projects = () => {
 
                             <div className="flex flex-col">
                                 <h1 className="text-[#adbac7] font-bold text-lg">Mblog</h1>
-                                <p className="text-[#9fa6b2] text-sm">Intégrateur Web - Développeur Full-Stack</p>
+                                <p className="text-[#9fa6b2] text-sm">Développeur Full-Stack</p>
                             </div>
                         </a>
 
@@ -84,7 +82,7 @@ export const Projects = () => {
                             <MdArrowForward className="p-3 text-5xl bg-[#434d5b] text-[#adbac7] rounded"/>
 
                             <div className="flex flex-col">
-                                <h1 className="text-[#adbac7] font-bold text-lg">Association - La coulée Douce</h1>
+                                <h1 className="text-[#adbac7] font-bold text-lg">La Coulée Douce</h1>
                                 <p className="text-[#9fa6b2] text-sm">Développeur Wordpress</p>
                             </div>
                         </a>
@@ -94,7 +92,7 @@ export const Projects = () => {
 
                             <div className="flex flex-col">
                                 <h1 className="text-[#adbac7] font-bold text-lg">Groupe Lelièvre</h1>
-                                <p className="text-[#9fa6b2] text-sm">Administrateur réseau - Assistance client</p>
+                                <p className="text-[#9fa6b2] text-sm">Administrateur réseau</p>
                             </div>
                         </a>
 
@@ -113,8 +111,8 @@ export const Projects = () => {
             <div className="flex-2 p-4 bg-[#1e2329] border border-[#333538] rounded-lg z-10">
                 <h1 className="text-2xl font-bold text-[#adbac7]">Mes projets 3D</h1>
 
-                <div className="flex w-full mt-4 gap-2">
-                    <div className="flex items-center w-1/2 gap-4 flex p-2 rounded duration-100 hover:bg-[#2e343c]">
+                <div className="flex flex-col w-full mt-4 gap-2 lg:flex-row">
+                    <div className="flex items-center w-full gap-4 flex p-2 rounded duration-100 hover:bg-[#2e343c] cursor-default">
                         <div className="flex flex-col w-full">
                             <h1 className="text-[#adbac7] font-bold text-lg">Le Chevalier - Hollow Knight</h1>
                             <p className="text-[#9fa6b2] text-sm">Modèle 3D utilisé pour mon site de vente de figurines.</p>
@@ -125,7 +123,7 @@ export const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="flex items-center w-1/2 gap-4 flex p-2 rounded duration-100 hover:bg-[#2e343c]">
+                    <div className="flex items-center w-full gap-4 flex p-2 rounded duration-100 hover:bg-[#2e343c] cursor-default">
                         <div className="flex flex-col w-full">
                             <h1 className="text-[#adbac7] font-bold text-lg">Pistolet M1911</h1>
                             <p className="text-[#9fa6b2] text-sm">Utilisation pour un projet de jeu vidéo.</p>

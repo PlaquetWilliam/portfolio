@@ -8,17 +8,13 @@ import Gmail from '../assets/Gmail.png'
 export const Contact = () => {
     return (
     <>
-        <section className='flex flex-col pt-10 pb-20 w-full'>
-            <div className="flex items-center z-10">
-                <p className="mr-2 py-1 px-3 text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded">
-                    Me contacter
-                </p>
-                <h1 className="text-2xl font-bold text-[#adbac7]">
-                    Je serais heureux de travailler avec vous !
-                </h1>
+        <section className='flex flex-col py-10 w-full'>
+            <div className="flex flex-col items-center z-10 lg:flex-row">
+                <p className="mb-2 mr-2 py-1 px-3 text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded lg:mb-0">Me contacter</p>
+                <h1 className="text-2xl text-center font-bold text-[#adbac7] lg:text-left">Je serais heureux de travailler avec vous !</h1>
             </div>
 
-            <div className="flex mt-8 gap-4 z-10">
+            <div className="flex flex-col mt-8 gap-4 z-10 lg:flex-row">
                 {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/william-plaquet-9b6682210/" target="_blank" className="group flex-1 flex justify-between items-center p-4 bg-[#1e2329] border border-[#333538] rounded-lg">
                     

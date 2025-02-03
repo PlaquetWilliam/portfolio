@@ -1,20 +1,18 @@
 import { CiLinkedin } from "react-icons/ci";
 import { SiIndeed } from "react-icons/si";
-
 import Profil from '../assets/Profil.png'
-
 import cv from '../assets/CV.pdf';
 
 export const Hero = () => {
     return (
     <>
-        <section className='flex justify-between items-center py-20 w-full'>
+        <section className='flex flex-col items-center py-20 w-full xl:flex-row xl:justify-between'>
             <div className="flex items-center h-full z-10">
                 <div className='flex flex-col justify-center'>
-                    <h1 className="text-6xl font-bold text-[#adbac7]">William Plaquet,</h1>
-                    <h1 className="text-6xl font-bold text-[#adbac7]">Développeur Web</h1>
-                    <p className="mt-4 text-lg text-[#9fa6b2]">Développeur Full-Stack / Frameworks</p>
-                    <div className="mt-4 flex">
+                    <h1 className="text-5xl text-center font-bold text-[#adbac7] xl:text-left">William Plaquet</h1>
+                    <h1 className="text-5xl text-center font-bold text-[#adbac7] xl:text-left">Développeur Web</h1>
+                    <p className="mt-4 text-lg text-center text-[#9fa6b2] xl:text-left">Développeur Full-Stack / Frameworks</p>
+                    <div className="flex justify-center mt-4 xl:justify-start">
                         <a
                             href={cv}
                             download="William_Plaquet_CV.pdf"
@@ -32,8 +30,8 @@ export const Hero = () => {
                 </div>
             </div>
 
-            <div className="flex items-center h-full z-10">
-                <img src={ Profil } className='w-[400px] rounded-full'/>
+            <div className="flex justify-center items-center mt-8 h-full z-10">
+                <img src={ Profil } className='w-[300px] rounded-full xl:w-[350px] 2xl:w-[400px]'/>
             </div>
         </section>
     </>

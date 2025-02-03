@@ -11,7 +11,7 @@ function App() {
         <Background />
       </div>
 
-      <div className="max-w-8/12 m-auto z-10">
+      <div className="max-w-11/12 m-auto z-10 xl:max-w-8/12">
         <Hero />
         <Projects />
         <Skills />
