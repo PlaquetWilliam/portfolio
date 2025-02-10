@@ -92,7 +92,7 @@ export const Projects = () => {
 
                             <div className="flex flex-col">
                                 <h1 className="text-[#adbac7] font-bold text-lg">Groupe Lelièvre</h1>
-                                <p className="text-[#9fa6b2] text-sm">Administrateur réseau</p>
+                                <p className="text-[#9fa6b2] text-sm">Assistant utilisateur</p>
                             </div>
                         </a>
 
