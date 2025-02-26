@@ -15,7 +15,7 @@ export const Hero = () => {
                     <div className="flex justify-center mt-4 xl:justify-start">
                         <a
                             href={cv}
-                            download="William_Plaquet_CV.pdf"
+                            download="CV_William_Plaquet.pdf"
                             className="mr-6 py-2 px-6 font-medium text-[#a9b4be] border border-[#3a3d40] bg-[#23282f] rounded cursor-pointer duration-100 hover:bg-[#303740]"
                             >
                             Télécharger le CV
